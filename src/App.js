@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Profile from './Profile/Profile';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Profile fullName="Jules Ko DIOUF" bio="Software engineering enthusiast !" profession="Web | Software Developer">
+        <img src="/img/profil.jpg" alt="Photo de profile" style={{width:'100%', borderRadius: '5px'}} />
+      </Profile>
+
     </div>
   );
 }
