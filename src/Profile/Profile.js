@@ -7,7 +7,7 @@ const Profile = props => {
   let name = props.fullName
   let bio = props.bio
   let profession = props.profession
-  const handleName = (name) => alert(name)
+  const handleName = (name) => alert(`Hello ${name}`)
 
   const styleTitle = {textAlign: 'center', color: '#0978e8'}
   const profileContainer = {
